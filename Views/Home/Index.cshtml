@@ -1,0 +1,6 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<input type="button" value="Word to PDF" onclick="location.href='@Url.Action("ConvertWordToPDF", "Home")'"/>
+<input type="button" value="Fillable PDF" onclick="location.href='@Url.Action("FillablePDF", "Home")'" />
